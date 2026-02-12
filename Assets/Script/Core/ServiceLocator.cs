@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine;
 using System;
 
 public static class ServiceLocator
@@ -16,7 +16,7 @@ public static class ServiceLocator
         }
         else
         {
-            _services[type] = service; // Update the old value if we re the scene
+            _services[type] = service; // Update the old value if we reload the scene
         }
     }
 
